@@ -46,3 +46,6 @@
 *TerrainData*.asset  binary
 *OcclusionCullingData.asset binary
 *.bytes binary
+
+# README screenshots: plain git (small, rendered by GitHub without LFS)
+docs/images/*.jpg !filter !diff !merge -text
