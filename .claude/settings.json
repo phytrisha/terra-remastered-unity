@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tools/blender_run.sh:*)",
+      "Bash(tools/unity_run.sh:*)",
+      "Bash(tools/sync_to_unity.sh:*)",
+      "Bash(python3 tools/sheet.py:*)",
+      "Bash(tripo doctor:*)",
+      "Bash(tripo balance:*)",
+      "Bash(tripo docs:*)",
+      "Bash(tripo task get:*)",
+      "Bash(tripo history:*)"
+    ]
+  }
+}

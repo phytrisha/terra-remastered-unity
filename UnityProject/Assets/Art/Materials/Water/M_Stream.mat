@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Stream
+  m_Shader: {fileID: 4800000, guid: 4d19b3e090ff74b968ff077b36e138fe, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _BaseFoam: 0
+    - _DepthFade: 0.9
+    - _FoamDist: 0.18
+    - _Gloss: 160
+    - _Lap: 0.6
+    - _Spec: 1.4
+    - _StreakSpeed: 0.9
+    - _Streaks: 1
+    - _WaveHeight: 0.03
+    - _WaveScale: 1.6
+    - _WaveSpeed: 1.6
+    m_Colors:
+    - _DeepColor: {r: 0.16, g: 0.52, b: 0.6, a: 0.9}
+    - _Flow: {r: -0.35, g: 0, b: -1, a: 1.2}
+    - _FoamColor: {r: 0.92, g: 0.96999997, b: 1, a: 1}
+    - _HorizonColor: {r: 0.75, g: 0.9, b: 0.96, a: 1}
+    - _ShallowColor: {r: 0.5, g: 0.86, b: 0.86, a: 0.45}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

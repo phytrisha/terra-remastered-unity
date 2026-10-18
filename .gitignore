@@ -1,0 +1,55 @@
+# ---- Unity (UnityProject/) ----
+UnityProject/[Ll]ibrary/
+UnityProject/[Tt]emp/
+UnityProject/[Oo]bj/
+UnityProject/[Bb]uild/
+UnityProject/[Bb]uilds/
+UnityProject/[Ll]ogs/
+UnityProject/[Uu]ser[Ss]ettings/
+UnityProject/[Mm]emoryCaptures/
+UnityProject/[Rr]ecordings/
+UnityProject/.vs/
+UnityProject/.vscode/
+UnityProject/.idea/
+UnityProject/*.csproj
+UnityProject/*.sln
+UnityProject/*.slnx
+UnityProject/*.user
+UnityProject/*.pidb
+UnityProject/*.pdb
+UnityProject/*.mdb
+UnityProject/*.opendb
+UnityProject/*.VC.db
+UnityProject/Assets/AssetStoreTools*
+UnityProject/Assets/StreamingAssets/aa*
+*_BurstDebugInformation_DoNotShip/
+sysinfo.txt
+crashlytics-buildid.txt
+*.apk
+*.aab
+*.unitypackage
+*.app
+# captures never live in Assets
+UnityProject/Assets/Captures/
+UnityProject/Assets/Captures.meta
+
+# ---- Blender ----
+*.blend1
+*.blend2
+blender/.current_*.py
+blender/export/
+__pycache__/
+
+# ---- pipeline outputs (regenerated) ----
+renders/
+unity/.run_*.cs
+unity/reports/
+
+# ---- secrets & machine config ----
+.env
+.claude/settings.local.json
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+.claude/scheduled_tasks.lock

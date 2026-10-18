@@ -1,0 +1,48 @@
+# Unity YAML (Force Text serialization): LF text, smart merge
+*.unity        text eol=lf merge=unityyamlmerge
+*.prefab       text eol=lf merge=unityyamlmerge
+*.mat          text eol=lf merge=unityyamlmerge
+*.anim         text eol=lf merge=unityyamlmerge
+*.controller   text eol=lf merge=unityyamlmerge
+*.overrideController text eol=lf merge=unityyamlmerge
+*.physicMaterial text eol=lf merge=unityyamlmerge
+# .asset can be YAML or binary (TerrainData, LightingData): let git detect, never convert line endings
+*.asset        merge=unityyamlmerge
+*.meta         text eol=lf
+*.terrainlayer text eol=lf
+*.lighting     text eol=lf
+*.inputactions text eol=lf
+*.cs           text eol=lf diff=csharp
+*.shader       text eol=lf
+*.hlsl         text eol=lf
+*.uss          text eol=lf
+*.uxml         text eol=lf
+*.json         text eol=lf
+*.py           text eol=lf
+*.sh           text eol=lf
+*.md           text eol=lf
+
+# Large binaries: Git LFS (run `git lfs install` once per machine; tools/new_project.sh does it)
+*.blend   filter=lfs diff=lfs merge=lfs -text
+*.fbx     filter=lfs diff=lfs merge=lfs -text
+*.FBX     filter=lfs diff=lfs merge=lfs -text
+*.glb     filter=lfs diff=lfs merge=lfs -text
+*.png     filter=lfs diff=lfs merge=lfs -text
+*.jpg     filter=lfs diff=lfs merge=lfs -text
+*.jpeg    filter=lfs diff=lfs merge=lfs -text
+*.tga     filter=lfs diff=lfs merge=lfs -text
+*.tif     filter=lfs diff=lfs merge=lfs -text
+*.psd     filter=lfs diff=lfs merge=lfs -text
+*.exr     filter=lfs diff=lfs merge=lfs -text
+*.hdr     filter=lfs diff=lfs merge=lfs -text
+*.wav     filter=lfs diff=lfs merge=lfs -text
+*.mp3     filter=lfs diff=lfs merge=lfs -text
+*.ogg     filter=lfs diff=lfs merge=lfs -text
+*.mp4     filter=lfs diff=lfs merge=lfs -text
+*.ttf     filter=lfs diff=lfs merge=lfs -text
+*.otf     filter=lfs diff=lfs merge=lfs -text
+# Always-binary Unity assets
+*LightingData.asset  filter=lfs diff=lfs merge=lfs -text
+*TerrainData*.asset  binary
+*OcclusionCullingData.asset binary
+*.bytes binary

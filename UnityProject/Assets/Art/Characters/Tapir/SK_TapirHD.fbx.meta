@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: 264090dcfd266454fbff0189118735d3
+ModelImporter:
+  serializedVersion: 24600
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_TapirHD
+    second: {fileID: 2100000, guid: ea8dc2899ce794382b01e1f48a5d2c0b, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+    searchTexturesGlobally: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Alert
+      takeName: Tapir_Rig|Alert
+      internalID: 2671250222558298540
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000u
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Tapir_Rig|Idle
+      internalID: 3227085661890609977
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000u
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Tapir_Rig|Walk
+      internalID: -1146814354192681362
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000u
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    preBakeConvexCollisionMesh: 0
+    preBakeTriangleCollisionMesh: 0
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    importUVs: -1
+    importVertexColors: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+    calculateBlendshapeNormalsDeltaFromImportedNormals: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: SK_TapirHD(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SK_TapirHD
+      parentName: SK_TapirHD(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Tapir_Rig
+      parentName: SK_TapirHD(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: root
+      parentName: Tapir_Rig
+      position: {x: 0, y: -0.0073999986, z: -0.0019366264}
+      rotation: {x: 0, y: 0, z: 1, w: -0.00000013315805}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hips
+      parentName: root
+      position: {x: -2.3210887e-16, y: -0.0061999997, z: 0.008799999}
+      rotation: {x: 0.0000000874395, y: -0.1053507, z: 0.99443513, w: -0.00000012463984}
+      scale: {x: 0.9999998, y: 0.9999997, z: 0.9999978}
+    - name: spine1
+      parentName: hips
+      position: {x: -4.2337873e-17, y: 0.000000001490116, z: -5.9604643e-10}
+      rotation: {x: 0.0000000032907368, y: 0.44256523, z: 0.8967363, w: -0.000000017589413}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000056}
+    - name: spine2
+      parentName: spine1
+      position: {x: -1.5581064e-16, y: 0.004404543, z: 5.681068e-10}
+      rotation: {x: 0.010214043, y: -0.00000016291297, z: 7.7115436e-10, w: 0.99994785}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: chest
+      parentName: spine2
+      position: {x: 7.349874e-19, y: 0.004001249, z: 2.7474015e-10}
+      rotation: {x: 0.031713244, y: -6.0989094e-13, z: -0.0000000027724496, w: 0.99949706}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: neck
+      parentName: chest
+      position: {x: -3.1903443e-17, y: 0.002601921, z: 7.4505804e-11}
+      rotation: {x: 0.04294283, y: 0.0000004763936, z: 0.000000016722387, w: 0.99907756}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head
+      parentName: neck
+      position: {x: -6.6175905e-17, y: 0.00161245, z: 6.705522e-10}
+      rotation: {x: -0.33870542, y: -0.00000022432077, z: -0.00000021264975, w: 0.94089246}
+      scale: {x: 1, y: 0.9999999, z: 0.9999998}
+    - name: snout
+      parentName: head
+      position: {x: -7.2296935e-17, y: 0.002607682, z: -0.000000001490116}
+      rotation: {x: -0.12749618, y: -0.00000011823777, z: -0.000000034450483, w: 0.9918391}
+      scale: {x: 1, y: 1.0000004, z: 1}
+    - name: ear_L
+      parentName: head
+      position: {x: 0.0008999994, y: -0.001319179, z: 0.00058288965}
+      rotation: {x: 0.43006557, y: -0.09962197, z: -0.7384382, w: 0.5097334}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: ear_R
+      parentName: head
+      position: {x: -0.0009000007, y: -0.0013191785, z: 0.00058288925}
+      rotation: {x: 0.4300652, y: 0.09962168, z: 0.73843837, w: 0.5097335}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1}
+    - name: upper_FL
+      parentName: chest
+      position: {x: 0.0014999999, y: -0.0012337001, z: -0.0008532131}
+      rotation: {x: -0.5667131, y: 0.560778, z: 0.4246163, w: 0.4290283}
+      scale: {x: 1.0000001, y: 0.99999475, z: 1.000004}
+    - name: lower_FL
+      parentName: upper_FL
+      position: {x: 6.434091e-11, y: 0.0028878942, z: 1.9557773e-10}
+      rotation: {x: 0.04009774, y: -0.0001516044, z: 0.0021939275, w: 0.9991934}
+      scale: {x: 0.9999998, y: 1.0000007, z: 0.9999988}
+    - name: foot_FL
+      parentName: lower_FL
+      position: {x: -5.122413e-11, y: 0.0028177893, z: 2.5231657e-11}
+      rotation: {x: 0.1513249, y: 0.0003224424, z: 0.0071222973, w: 0.9884584}
+      scale: {x: 0.99999964, y: 0.9999997, z: 0.9999999}
+    - name: upper_FR
+      parentName: chest
+      position: {x: -0.0015000001, y: -0.0012337001, z: -0.00085321226}
+      rotation: {x: -0.51218957, y: -0.5068337, z: -0.4877131, w: 0.49286658}
+      scale: {x: 1.000001, y: 1, z: 1.0000004}
+    - name: lower_FR
+      parentName: upper_FR
+      position: {x: -6.15074e-11, y: 0.0028017748, z: 2.5801333e-11}
+      rotation: {x: 0.04074843, y: 0.00006628036, z: -0.0012402831, w: 0.99916863}
+      scale: {x: 0.9999995, y: 1.0000017, z: 0.999998}
+    - name: foot_FR
+      parentName: lower_FR
+      position: {x: 2.4004371e-11, y: 0.0028177905, z: -1.4842953e-10}
+      rotation: {x: 0.092248395, y: 0.0035297626, z: 0.017496208, w: 0.9955761}
+      scale: {x: 0.9999996, y: 0.99999994, z: 0.99999976}
+    - name: tail1
+      parentName: hips
+      position: {x: 9.491444e-11, y: 0.0029334098, z: 0.0006285886}
+      rotation: {x: 0.00000002538646, y: 0.88991076, z: -0.4561347, w: -0.00000016264293}
+      scale: {x: 0.9999999, y: 0.99999964, z: 0.99999964}
+    - name: upper_BL
+      parentName: hips
+      position: {x: -0.0011999999, y: 0.0012571752, z: -0.00013968733}
+      rotation: {x: -0.0000000054599156, y: 0.709606, z: -0.7045987, w: -0.0000001822293}
+      scale: {x: 0.99999994, y: 0.9999969, z: 0.99999917}
+    - name: lower_BL
+      parentName: upper_BL
+      position: {x: 1.2627474e-10, y: 0.0029614237, z: 1.4996192e-10}
+      rotation: {x: 0.0009919432, y: 0.9425095, z: -0.3341778, w: 0.0003598648}
+      scale: {x: 0.99999976, y: 0.9999995, z: 1.0000011}
+    - name: foot_BL
+      parentName: lower_BL
+      position: {x: 2.194579e-11, y: 0.0031764794, z: 2.9515645e-10}
+      rotation: {x: 0.0010076519, y: 0.9570751, z: -0.28983805, w: -0.0003132077}
+      scale: {x: 1.0000001, y: 0.99999964, z: 0.9999999}
+    - name: upper_BR
+      parentName: hips
+      position: {x: 0.0011999999, y: 0.001257176, z: -0.00013968619}
+      rotation: {x: -0.0075080236, y: -0.69746226, z: 0.7165185, w: -0.009553569}
+      scale: {x: 1, y: 0.999999, z: 0.99999857}
+    - name: lower_BR
+      parentName: upper_BR
+      position: {x: -2.615419e-11, y: 0.003220254, z: -3.584112e-10}
+      rotation: {x: -0.34042385, y: 0.00000006058652, z: -0.00000003905453, w: 0.94027215}
+      scale: {x: 0.9999999, y: 1.0000012, z: 0.99999845}
+    - name: foot_BR
+      parentName: lower_BR
+      position: {x: -2.281721e-11, y: 0.0028861784, z: -3.9020448e-10}
+      rotation: {x: 0.37943012, y: 0.003609292, z: 0.00733067, w: 0.9251843}
+      scale: {x: 0.99999994, y: 1, z: 0.9999998}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

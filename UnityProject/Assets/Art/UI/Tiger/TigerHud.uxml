@@ -1,0 +1,52 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+  <ui:Style src="TigerHud.uss" />
+  <ui:VisualElement name="hudRoot" class="hud-root" picking-mode="Ignore">
+
+    <ui:VisualElement name="forestLayer" class="layer" picking-mode="Ignore">
+      <ui:VisualElement name="reticle" class="reticle" picking-mode="Ignore" />
+      <ui:VisualElement name="reticleTag" class="reticle-tag" picking-mode="Ignore">
+        <ui:Label name="reticleCode" class="mono tag-code" text="SPECIMEN DETECTED" picking-mode="Ignore" />
+        <ui:Label name="reticleText" class="tag-text" text="WHITE TIGER  //  CLICK TO APPROACH" picking-mode="Ignore" />
+      </ui:VisualElement>
+    </ui:VisualElement>
+
+    <ui:VisualElement name="showcaseLayer" class="layer showcase-hidden" picking-mode="Ignore">
+      <ui:VisualElement name="leaderLine" class="layer" picking-mode="Ignore" />
+      <ui:VisualElement name="tagLayer" class="layer" picking-mode="Ignore" />
+
+      <ui:VisualElement name="header" class="header">
+        <ui:Label name="headerCode" class="mono header-code" text="ARCHIVE 07  //  SPECIMEN 01" picking-mode="Ignore" />
+        <ui:Label name="headerTitle" class="header-title" text="WHITE TIGER" picking-mode="Ignore" />
+        <ui:Label name="headerSpecies" class="mono header-species" text="PANTHERA TIGRIS TIGRIS" picking-mode="Ignore" />
+        <ui:VisualElement class="header-rule" picking-mode="Ignore" />
+        <ui:Label name="headerVariant" class="mono header-variant" text="BENGAL TIGER  //  WHITE MORPH" picking-mode="Ignore" />
+        <ui:VisualElement name="pointList" class="point-list" />
+      </ui:VisualElement>
+
+      <ui:Button name="returnButton" class="hud-button return-button" text="RETURN TO JUNGLE" />
+
+      <ui:Label name="instructions" class="mono instructions" text="SELECT A POINT OF INTEREST   ·   DRAG TO ORBIT   ·   SCROLL TO ZOOM" picking-mode="Ignore" />
+
+      <ui:VisualElement name="infoPanel" class="info-panel info-hidden">
+        <ui:VisualElement name="panelFrame" class="panel-frame" picking-mode="Ignore" />
+        <ui:VisualElement class="info-head" picking-mode="Ignore">
+          <ui:Label name="infoCode" class="mono info-code" text="01  //  ANALYSIS" picking-mode="Ignore" />
+          <ui:Label name="infoStatus" class="mono info-status" text="SCAN COMPLETE" picking-mode="Ignore" />
+        </ui:VisualElement>
+        <ui:Label name="infoTitle" class="info-title" text="EYES" picking-mode="Ignore" />
+        <ui:Label name="infoSubtitle" class="mono info-subtitle" text="Ocular system" picking-mode="Ignore" />
+        <ui:VisualElement name="scanBar" class="scan-bar" picking-mode="Ignore">
+          <ui:VisualElement name="scanFill" class="scan-fill" picking-mode="Ignore" />
+        </ui:VisualElement>
+        <ui:VisualElement name="statList" class="stat-list" picking-mode="Ignore" />
+        <ui:Label name="infoBody" class="info-body" text="" picking-mode="Ignore" />
+        <ui:VisualElement class="info-foot" picking-mode="Ignore">
+          <ui:Button name="backButton" class="hud-button back-button" text="BACK  [ESC]" />
+          <ui:Label name="infoIndex" class="mono info-index" text="01 / 07" picking-mode="Ignore" />
+        </ui:VisualElement>
+      </ui:VisualElement>
+    </ui:VisualElement>
+
+    <ui:VisualElement name="flash" class="flash" picking-mode="Ignore" />
+  </ui:VisualElement>
+</ui:UXML>

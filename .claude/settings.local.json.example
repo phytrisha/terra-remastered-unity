@@ -1,0 +1,6 @@
+{
+  "env": {
+    "AIHUB_API_KEY": "<create one at https://ai-hub.hfg-gmuend.de/api-keys>",
+    "AIHUB_BASE_URL": "https://ai-hub.hfg-gmuend.de"
+  }
+}

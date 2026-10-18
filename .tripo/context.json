@@ -1,0 +1,4 @@
+{
+  "default_scenario": "game-pc",
+  "output_dir": "./sources/tripo"
+}

@@ -1,0 +1,14 @@
+date	asset	model	credits	prediction	prompt
+2026-10-15	ButtressTree concept	Nano Banana Pro	11	c90fe5f4	low-poly buttress-root rainforest trunk, white bg (ref: terra_rainforest.png)
+2026-10-15	BoulderCluster concept	Nano Banana Pro	11	c87a10ae	low-poly 3-boulder cluster, white bg (ref)
+2026-10-15	Sky cloud	Nano Banana Pro	11	36ef4f3d	cumulus cloud on black
+2026-10-15	ButtressTree mesh	Hunyuan3D V3 LowPoly	80	8c1d3bbd	from concept.png
+2026-10-15	BoulderCluster mesh	Hunyuan3D V3 LowPoly	80?	38201f34	FAILED (downstream service unavailable); not retried
+2026-10-17	TapirHD side view	Nano Banana Pro 2K	11	9fb08726	photoreal Malayan tapir, exact side view facing left, neutral stand, white bg
+2026-10-17	ChitalHD side view	Nano Banana Pro 2K	11	e960dfdf	photoreal chital doe (no antlers), exact side view facing left, neutral stand, white bg
+2026-10-17	TapirHD front view	Nano Banana Pro 2K	11	1959f8ee	same tapir (ref side.png), exact front, white bg
+2026-10-17	TapirHD back view	Nano Banana Pro 2K	11	bebde01d	same tapir (ref side.png), exact rear, white bg
+2026-10-17	ChitalHD front view	Nano Banana Pro 2K	11	6969e27f	same doe (ref side.png), exact front, white bg
+2026-10-17	ChitalHD back view	Nano Banana Pro 2K	11	b3b8ad15	same doe (ref side.png), exact rear, white bg
+2026-10-17	TapirHD mesh	Hunyuan3D V3 Normal PBR 120k	80	3ac21ffe	from side.png (single view)
+2026-10-17	ChitalHD mesh	Hunyuan3D V3 Normal PBR 120k	80	6f4e0140	from side.png (single view)

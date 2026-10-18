@@ -1,0 +1,371 @@
+.hud-root {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    -unity-font-definition: url("project://database/Assets/ThirdParty/Fonts/Inter/Inter-Regular.ttf");
+    color: rgb(225, 246, 250);
+}
+
+.layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.mono {
+    -unity-font-definition: url("project://database/Assets/ThirdParty/Fonts/RobotoMono/RobotoMono-Regular.ttf");
+    letter-spacing: 2px;
+}
+
+/* ---------- forest: reticle ---------- */
+.reticle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 64px;
+    height: 64px;
+    translate: -32px -32px;
+}
+
+.reticle-tag {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: 46px -18px;
+    padding: 6px 12px;
+    background-color: rgba(6, 18, 26, 0.85);
+    border-left-width: 2px;
+    border-left-color: rgb(120, 240, 255);
+    opacity: 0;
+    transition-duration: 0.25s;
+}
+
+.reticle-tag-visible {
+    opacity: 1;
+    translate: 54px -18px;
+}
+
+.tag-code {
+    font-size: 10px;
+    color: rgb(120, 240, 255);
+}
+
+.tag-text {
+    font-size: 13px;
+    -unity-font-style: bold;
+    letter-spacing: 1px;
+}
+
+/* ---------- flash ---------- */
+.flash {
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+}
+
+/* ---------- showcase ---------- */
+.showcase-hidden {
+    display: none;
+}
+
+.header {
+    position: absolute;
+    left: 48px;
+    top: 40px;
+    opacity: 0;
+    translate: -20px 0;
+    transition-duration: 0.8s;
+}
+
+.header-in {
+    opacity: 1;
+    translate: 0 0;
+}
+
+.header-code {
+    font-size: 11px;
+    color: rgb(40, 150, 170);
+}
+
+.header-title {
+    font-size: 44px;
+    -unity-font-definition: url("project://database/Assets/ThirdParty/Fonts/Inter/Inter-SemiBold.ttf");
+    color: rgb(18, 34, 42);
+    letter-spacing: 6px;
+    margin-top: 4px;
+}
+
+.header-species {
+    font-size: 13px;
+    color: rgb(40, 70, 82);
+}
+
+.header-rule {
+    width: 260px;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    background-color: rgb(40, 150, 170);
+}
+
+.header-variant {
+    font-size: 11px;
+    color: rgb(70, 100, 110);
+}
+
+.instructions {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 34px;
+    -unity-text-align: middle-center;
+    font-size: 12px;
+    color: rgb(60, 95, 105);
+    opacity: 0;
+    transition-duration: 0.8s;
+}
+
+.instructions-in {
+    opacity: 1;
+}
+
+.hud-button {
+    background-color: rgba(6, 18, 26, 0.94);
+    border-width: 1px;
+    border-color: rgb(120, 240, 255);
+    border-radius: 0;
+    color: rgb(225, 246, 250);
+    -unity-font-definition: url("project://database/Assets/ThirdParty/Fonts/RobotoMono/RobotoMono-Bold.ttf");
+    font-size: 11px;
+    letter-spacing: 2px;
+    padding: 8px 16px;
+    transition-duration: 0.15s;
+}
+
+.hud-button:hover {
+    background-color: rgb(120, 240, 255);
+    color: rgb(6, 18, 26);
+}
+
+.return-button {
+    position: absolute;
+    right: 44px;
+    top: 44px;
+    opacity: 0;
+}
+
+.return-in {
+    opacity: 1;
+}
+
+.tag {
+    position: absolute;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 8px;
+    background-color: rgba(6, 18, 26, 0.94);
+    border-left-width: 2px;
+    border-left-color: rgb(120, 240, 255);
+    transition-duration: 0.2s;
+}
+
+.tag-hover {
+    background-color: rgb(120, 240, 255);
+}
+
+.tag-hover > .tag-label {
+    color: rgb(6, 18, 26);
+}
+
+.tag-hover > .tag-num {
+    color: rgb(6, 18, 26);
+}
+
+.tag-hidden {
+    opacity: 0;
+}
+
+.tag-num {
+    font-size: 10px;
+    color: rgb(120, 240, 255);
+    margin-right: 6px;
+}
+
+.tag-label {
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: rgb(225, 246, 250);
+}
+
+/* ---------- info panel ---------- */
+.info-panel {
+    position: absolute;
+    right: 48px;
+    top: 120px;
+    width: 460px;
+    padding: 28px 30px 22px 30px;
+    background-color: rgba(6, 18, 26, 0.96);
+    transition-duration: 0.45s;
+}
+
+.info-hidden {
+    opacity: 0;
+    translate: 40px 0;
+}
+
+.panel-frame {
+    position: absolute;
+    left: -6px;
+    top: -6px;
+    right: -6px;
+    bottom: -6px;
+}
+
+.info-head {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info-code {
+    font-size: 12px;
+    color: rgb(120, 240, 255);
+}
+
+.info-status {
+    font-size: 10px;
+    color: rgb(90, 160, 170);
+}
+
+.info-title {
+    font-size: 40px;
+    -unity-font-definition: url("project://database/Assets/ThirdParty/Fonts/Inter/Inter-SemiBold.ttf");
+    letter-spacing: 6px;
+    margin-top: 10px;
+}
+
+.info-subtitle {
+    font-size: 14px;
+    color: rgb(150, 205, 215);
+    margin-bottom: 14px;
+}
+
+.scan-bar {
+    height: 2px;
+    background-color: rgba(120, 240, 255, 0.18);
+    margin-bottom: 16px;
+}
+
+.scan-fill {
+    height: 2px;
+    width: 0;
+    background-color: rgb(120, 240, 255);
+}
+
+.stat-row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(120, 240, 255, 0.14);
+}
+
+.stat-label {
+    font-size: 12px;
+    color: rgb(130, 180, 190);
+}
+
+.stat-right {
+    flex-direction: row;
+    align-items: center;
+}
+
+.stat-value {
+    font-size: 14px;
+    color: rgb(235, 250, 252);
+}
+
+.stat-bar {
+    width: 70px;
+    height: 4px;
+    margin-left: 10px;
+    background-color: rgba(120, 240, 255, 0.15);
+}
+
+.stat-bar-fill {
+    height: 4px;
+    width: 0;
+    background-color: rgb(120, 240, 255);
+    transition-duration: 0.9s;
+}
+
+.info-body {
+    font-size: 15px;
+    white-space: normal;
+    color: rgb(205, 228, 232);
+    margin-top: 16px;
+    -unity-paragraph-spacing: 4px;
+}
+
+.info-foot {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.info-index {
+    font-size: 10px;
+    color: rgb(90, 160, 170);
+}
+
+/* ---------- point index (left, under the header) ---------- */
+.point-list {
+    margin-top: 26px;
+}
+
+.point-item {
+    flex-direction: row;
+    align-items: center;
+    width: 230px;
+    padding: 7px 10px;
+    margin-bottom: 4px;
+    background-color: rgba(6, 18, 26, 0.0);
+    border-left-width: 2px;
+    border-left-color: rgba(40, 150, 170, 0.5);
+    transition-duration: 0.15s;
+}
+
+.point-item:hover {
+    background-color: rgba(6, 18, 26, 0.94);
+    border-left-color: rgb(120, 240, 255);
+}
+
+.point-item:hover > .point-name {
+    color: rgb(225, 246, 250);
+}
+
+.point-selected {
+    background-color: rgba(6, 18, 26, 0.94);
+    border-left-color: rgb(120, 240, 255);
+}
+
+.point-selected > .point-name {
+    color: rgb(225, 246, 250);
+}
+
+.point-num {
+    font-size: 11px;
+    color: rgb(40, 150, 170);
+    margin-right: 10px;
+}
+
+.point-name {
+    font-size: 13px;
+    color: rgb(18, 34, 42);
+    letter-spacing: 3px;
+}
+
